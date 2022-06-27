@@ -18,4 +18,11 @@
 # 20
 
 p "Enter a number:"
+factor = gets.chomp.to_i
+index = 1
+while index <=10
+  result = index * factor
+  p result
+  index = index + 1
+end
 
